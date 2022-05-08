@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /*.css
+Allow: /*.js
+Allow: */page
+Disallow: /*?*
+Disallow: /wp-admin/
+Disallow: /?s=th
+Disallow: /author/
+Disallow: */attachment/*
+Disallow: /tag/*/
+Disallow: /feed/
+Disallow: /wp-json/*
+Disallow: /recommends/
+Disallow: /*comment-page*/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://kuponchek.ru/sitemap_index.xml

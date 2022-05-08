@@ -1,0 +1,437 @@
+# Translation of Plugins - Easy Affiliate Links - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Easy Affiliate Links - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-30 19:18:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Easy Affiliate Links - Development (trunk)\n"
+
+#: includes/admin/class-eafl-privacy.php:98 templates/admin/translations.php:18
+msgid "User ID"
+msgstr "ID пользователя"
+
+#: includes/admin/class-eafl-privacy.php:61
+msgid "Easy Affiliate Links Plugin"
+msgstr "Плагин Easy Affiliate Links"
+
+#: includes/admin/class-eafl-privacy.php:102
+msgid "IP Address"
+msgstr "IP-адрес"
+
+#: includes/admin/class-eafl-privacy.php:90
+msgid "Click ID"
+msgstr "ID клика"
+
+#: templates/admin/privacy.php:15
+msgid "Analytics"
+msgstr "Аналитика"
+
+#: includes/admin/class-eafl-privacy.php:106
+msgid "User Agent"
+msgstr "User Agent"
+
+#: templates/settings/group-statistics.php:17
+msgid "Store IP Address"
+msgstr "Запись IP-адреса"
+
+#: templates/admin/privacy.php:17
+msgid "How long we retain your data"
+msgstr "Как долго мы храним ваши данные"
+
+#: templates/admin/privacy.php:14
+msgid "What personal data we collect and why we collect it"
+msgstr "Какие персональные данные мы собираем и зачем"
+
+#: templates/settings/group-statistics.php:18
+msgid "You might need to disable this to comply with GPDR or other privacy regulations. The IP adress will then be stored as a hash."
+msgstr "Возможно, вам придется отключить это, чтобы соответствовать требованиям GPDR или другим правилам конфиденциальности. В этом случае IP-адрес будет сохранен как хэш."
+
+#: templates/admin/privacy.php:18
+msgid "Click information is retained in the local database indefinitely for analytic purposes and optional export."
+msgstr "Информация о клике сохраняется в базе данных навсегда для аналитических целей и экспорта."
+
+#: templates/admin/privacy.php:16
+msgid "When enabled, we track affiliate link clicks for analytic purposes. These include a (optionally hashed) IP address and user ID (when logged in)."
+msgstr "Когда включено, мы отслеживаем клики с партнерской ссылкой для аналитики. К ним относятся (необязательно хэшированный) IP-адрес и идентификатор пользователя (при входе в систему)."
+
+#: templates/settings/group-shortcode.php:5
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: templates/settings/group-shortcode.php:18
+msgid "Use Noreferrer"
+msgstr "Использовать Noreferrer"
+
+#: templates/settings/group-shortcode.php:11
+msgid "Use Noopener"
+msgstr "Использовать Noopener"
+
+#: templates/admin/translations.php:93
+msgid "Link Cloaking"
+msgstr "Маскировка ссылки"
+
+#: templates/settings/group-defaults.php:11
+msgid "Default Cloaking"
+msgstr "Маскировка по умолчанию"
+
+#: includes/admin/class-eafl-manage-modal.php:149
+#: templates/settings/group-defaults.php:14
+msgid "Cloak affiliate link"
+msgstr "Маскировать ссылку"
+
+#: includes/admin/class-eafl-manage-modal.php:150
+#: templates/settings/group-defaults.php:15
+msgid "Do not cloak affiliate link"
+msgstr "Не маскировать ссылку"
+
+#: templates/admin/menu/statistics/cleanup.php:37
+msgid "Remove All Clicks"
+msgstr "Удалить все клики"
+
+#: templates/admin/menu/statistics/cleanup.php:48
+#: templates/settings/group-statistics.php:37
+msgid "Remove Clicks By Role"
+msgstr "Удалить клики для роли"
+
+#: templates/admin/menu/statistics/cleanup.php:64
+#: templates/settings/group-statistics.php:38
+msgid "Remove clicks by logged in users with these roles."
+msgstr "Удалить клики для пользователей с этими ролями."
+
+#: templates/admin/menu/statistics/cleanup.php:75
+msgid "Remove clicks by these IP addresses. One address or range per line. For example:"
+msgstr "Удаление кликов для этих IP-адресов. Один адрес или диапазон на каждой строке. Например:"
+
+#: templates/admin/menu/statistics/cleanup.php:42
+msgid "Remove ALL clicks during clean up."
+msgstr "Удалить ВСЕ клики в процессе очистки."
+
+#: templates/admin/menu/statistics/cleanup.php:26
+msgid "Remove Bots"
+msgstr "Удалить ботов"
+
+#: includes/admin/class-eafl-statistics.php:63
+msgid "Clean Up"
+msgstr "Очистка"
+
+#: templates/admin/menu/statistics/cleanup.php:18
+msgid "Clean up link clicks"
+msgstr "Очистка кликов по ссылкам"
+
+#: templates/admin/menu/statistics/cleanup.php:83
+msgid "Clean Up Clicks"
+msgstr "Очистить клики"
+
+#: templates/admin/menu/statistics/cleanup.php:70
+#: templates/settings/group-statistics.php:61
+msgid "Exclude IPs"
+msgstr "Исключить IP"
+
+#: templates/admin/menu/statistics/cleanup.php:31
+msgid "Robots and crawlers that slipped through are automatically removed when cleaning up."
+msgstr "Роботы и боты, которые проскакивают, автоматически удаляются при очистке."
+
+#: templates/admin/menu/statistics/cleanup.php:20
+msgid "Warning! Using this function will remove matching clicks from the database. Make a backup first if unsure."
+msgstr "Предупреждение! С помощью этой функции удаляются подсчитанные клики из базы данных. Рекомендуется сделать резервную копию"
+
+#: templates/admin/translations.php:17
+msgid "Device"
+msgstr "Устройство"
+
+#: templates/admin/translations.php:22
+msgid "Tablet"
+msgstr "Планшет"
+
+#: templates/admin/translations.php:21
+msgid "Desktop"
+msgstr "Компьютер"
+
+#: includes/public/api/class-eafl-api-manage-clicks.php:191
+#: templates/admin/translations.php:201
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/public/api/class-eafl-api-manage-clicks.php:191
+#: templates/admin/translations.php:28
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: templates/admin/translations.php:23
+msgid "Mobile"
+msgstr "Телефон"
+
+#: includes/admin/class-eafl-migrations.php:109
+#: templates/admin/menu/migration.php:17
+msgid "Migration"
+msgstr "Миграция"
+
+#: templates/admin/translations.php:108
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: includes/admin/class-eafl-manage-modal.php:182
+#: templates/settings/group-defaults.php:25
+msgid "Open in new tab"
+msgstr "Открыть в новой вкладке"
+
+#: templates/admin/menu/import-export/import-csv-mapping.php:73
+#: templates/admin/translations.php:86
+msgid "Description"
+msgstr "Описание"
+
+#: templates/settings/group-custom-code.php:5
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: includes/admin/class-eafl-manage-modal.php:247
+msgid "Add nofollow attribute"
+msgstr "Добавить атрибут nofollow"
+
+#: includes/admin/class-eafl-manage-modal.php:246
+msgid "Do not add nofollow attribute"
+msgstr "Не добавлять атрибут nofollow"
+
+#: includes/admin/class-eafl-tools-manager.php:79
+#: includes/public/class-eafl-settings.php:36
+msgid "Settings"
+msgstr "Настройки"
+
+#: templates/admin/translations.php:109
+msgid "Create Link"
+msgstr "Создать ссылку"
+
+#: templates/admin/translations.php:152
+msgid "Edit Link"
+msgstr "Изменить ссылку"
+
+#: templates/admin/translations.php:43
+msgid "Copy to clipboard"
+msgstr "Скопировать в буфер обмена"
+
+#: templates/admin/menu/import-export/import-csv.php:16
+#: templates/admin/menu/import-export/import-xml.php:15
+msgid "It's a good idea to backup your WP database before using the import feature."
+msgstr "Рекомендуется создать резервную копию базы данных WP перед использованием функции импорта."
+
+#: templates/admin/menu/import-export/import-xml.php:16
+msgid "Select the XML file containing links in the Easy Affiliate Links format:"
+msgstr "Выберите XML-файл, содержащий ссылки в формате Easy Affiliate Links:"
+
+#: includes/admin/class-eafl-manage-modal.php:181
+#: templates/settings/group-defaults.php:24
+msgid "Open in same tab"
+msgstr "Открыть в той же вкладке"
+
+#: includes/admin/class-eafl-manage-modal.php:158
+#: includes/admin/class-eafl-manage-modal.php:190
+#: includes/admin/class-eafl-manage-modal.php:223
+#: includes/admin/class-eafl-manage-modal.php:255
+msgid "Use Default"
+msgstr "По умолчанию"
+
+#: templates/admin/translations.php:131
+msgid "Link"
+msgstr "Ссылка"
+
+#: includes/admin/class-eafl-privacy.php:94 templates/admin/translations.php:71
+msgid "Date"
+msgstr "Дата"
+
+#: templates/admin/menu/import-export/import-csv-mapping.php:67
+#: templates/admin/translations.php:77
+msgid "Name"
+msgstr "Имя"
+
+#: templates/admin/menu/import-export/import-csv-mapping.php:61
+#: templates/admin/translations.php:155
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/import-export/class-eafl-ie-export-xml.php:77
+msgid "Download XML"
+msgstr "Скачать XML"
+
+#: includes/admin/menu/class-eafl-admin-menu-faq.php:66
+msgid "FAQ & Support"
+msgstr "Частые вопросы и поддержка"
+
+#: templates/admin/translations.php:24
+msgid "Clicks"
+msgstr "Клики"
+
+#: templates/admin/translations.php:199
+msgid "Link URL"
+msgstr "URL ссылки"
+
+#: templates/admin/translations.php:98
+msgid "Default Link Text"
+msgstr "Текст ссылки по умолчанию"
+
+#: includes/admin/import-export/class-eafl-ie-import-xml.php:40
+#: templates/admin/menu/import-export/import-xml.php:20
+msgid "Import XML"
+msgstr "Импортировать XML"
+
+#: includes/public/class-eafl-post-type.php:39
+msgctxt "post type singular name"
+msgid "Affiliate Link"
+msgstr "Партнёрская ссылка"
+
+#: includes/public/class-eafl-post-type.php:38
+msgctxt "post type general name"
+msgid "Affiliate Links"
+msgstr "Партнёрские ссылки"
+
+#: includes/public/class-eafl-taxonomies.php:39
+msgctxt "link categories singular name"
+msgid "Link Category"
+msgstr "Рубрика ссылки"
+
+#: includes/public/class-eafl-taxonomies.php:38
+msgctxt "link category general name"
+msgid "Link Categories"
+msgstr "Рубрики ссылки"
+
+#: includes/admin/class-eafl-manage-modal.php:40
+#: includes/admin/tools/class-eafl-tools-find-relations.php:42
+msgid "Manage"
+msgstr "Управление"
+
+#: templates/admin/menu/import-export/import-csv-mapping.php:79
+#: templates/admin/translations.php:27
+#: templates/settings/group-disclaimer.php:124
+msgid "Categories"
+msgstr "Рубрики"
+
+#: includes/admin/import-export/class-eafl-ie-export-csv.php:57
+#: includes/admin/import-export/class-eafl-ie-export-xml.php:57
+msgid "There are no links to export."
+msgstr "Нет ссылок для экспорта."
+
+#: templates/admin/translations.php:101
+msgid "Redirect Type"
+msgstr "Тип перенаправления"
+
+#: includes/admin/class-eafl-manage-modal.php:213
+#: templates/settings/group-defaults.php:34
+msgid "301 Permanent"
+msgstr "301 постоянное"
+
+#: includes/admin/class-eafl-manage-modal.php:214
+#: templates/settings/group-defaults.php:35
+msgid "302 Temporary"
+msgstr "302 временное"
+
+#: includes/admin/class-eafl-manage-modal.php:215
+#: templates/settings/group-defaults.php:36
+msgid "307 Temporary"
+msgstr "307 временное"
+
+#: templates/admin/translations.php:102
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: includes/admin/class-eafl-manage-modal.php:133
+#: templates/admin/menu/import-export/import-csv-mapping.php:85
+#: templates/admin/translations.php:78
+msgid "Text"
+msgstr "Текст"
+
+#: templates/settings/group-defaults.php:31
+msgid "Default Redirect Type"
+msgstr "Тип перенаправления по умолчанию"
+
+#: templates/settings/group-statistics.php:5
+msgid "Statistics"
+msgstr "Статистика"
+
+#: templates/settings/group-statistics.php:10
+msgid "Count Clicks"
+msgstr "Счётчик кликов"
+
+#: templates/settings/group-statistics.php:11
+msgid "Register all clicks on affiliate links"
+msgstr "Регистрировать все клики по партнёрским ссылкам"
+
+#: templates/admin/settings.php:16 templates/admin/translations.php:72
+#: templates/settings/group-general.php:5
+msgid "General"
+msgstr "Общие"
+
+#: templates/admin/settings.php:17 templates/settings/settings.php:36
+msgid "Advanced"
+msgstr "Дополнительные"
+
+#. Plugin Name of the plugin
+msgid "Easy Affiliate Links"
+msgstr "Easy Affiliate Links"
+
+#: templates/admin/settings.php:26
+msgid "Easy Affiliate Links Settings"
+msgstr "Настройки Easy Affiliate Links"
+
+#. Description of the plugin
+msgid "Easily manage and cloak all your affiliate links."
+msgstr "Легко управляйте и маскируйте все ваши партнёрские ссылки."
+
+#: templates/admin/translations.php:100
+msgid "Target"
+msgstr "Цель"
+
+#: templates/admin/translations.php:94 templates/settings/group-general.php:10
+msgid "Shortlink Slug"
+msgstr "Ярлык для короткой ссылки"
+
+#: templates/settings/group-custom-code.php:17
+msgid "Public CSS"
+msgstr "Публичный CSS"
+
+#: templates/settings/group-defaults.php:21
+msgid "Default Target"
+msgstr "Цель по умолчанию"
+
+#: templates/settings/group-defaults.php:5
+msgid "Defaults"
+msgstr "Значения по умолчанию"
+
+#: templates/settings/group-defaults.php:6
+msgid "Default options to use for your affiliate links."
+msgstr "Настройки по умолчанию для партнёрских ссылок."
+
+#: templates/settings/group-defaults.php:42
+msgid "Default Use Nofollow"
+msgstr "Использование Nofollow по умолчанию"
+
+#: templates/settings/group-defaults.php:45
+msgid "Add the nofollow attribute to affiliate links"
+msgstr "Добавить атрибут nofollow для партнёрских ссылок"
+
+#: templates/settings/group-custom-code.php:18
+msgid "Use your own custom CSS for styling affiliate links."
+msgstr "Используйте свои стили CSS для оформления партнёрских ссылок."
+
+#: templates/admin/translations.php:110
+msgid "Add variant"
+msgstr "Добавить вариант"
+
+#: templates/admin/translations.php:160
+msgid "Lifetime"
+msgstr "Все время"
+
+#: templates/settings/group-permissions.php:5
+msgid "Permissions"
+msgstr "Разрешения"
+
+#. Author of the plugin
+msgid "Bootstrapped Ventures"
+msgstr "Bootstrapped Ventures"
+
+#: templates/admin/translations.php:159
+msgid "This month"
+msgstr "Этот месяц"
