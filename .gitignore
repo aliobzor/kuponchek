@@ -1,1 +1,44 @@
-wp-content/uploads
+.idea
+.env
+.DS_Store
+
+/node_modules/
+package-lock.json
+
+wp-config.php
+*.sql
+
+!.gitignore
+!wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes
+
+wp-content/themes/twentynineteen/
+wp-content/themes/twentytwenty/
+wp-content/themes/twentytwentyone/
+
+# WP ROOT
+.htaccess
+index.php
+license.txt
+readme.html
+robots.txt
+wp-activate.php
+wp-admin/
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-includes/
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
